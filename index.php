@@ -1,17 +1,18 @@
 <?php
 /**
  * Casper
- * 
+ *
  * @package Typecho Casper Theme
  * @version 0.2
  * @link https://kotori.love/
+ * Modified by qwerty250: change photo
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  $this->need('header.php');
  ?>
 
-<header class="main-header " id="index-main-header" style="background-image: url(<?php $this->options->themeUrl('assets/imgs/Kotori.jpg')?>)">
+<header class="main-header " id="index-main-header" style="background-image: url(<?php $this->options->themeUrl('assets/imgs/aneta-ivanova-776.jpg')?>)">
     <nav class="main-nav overlay clearfix">
         <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
     </nav>
@@ -41,7 +42,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
     <section class="post-excerpt">
         <p><?php $this->excerpt('500','...');?><a class="read-more" href="<?php $this->permalink() ?>">&raquo;</a></p>
     </section>
-    <footer class="post-meta">        
+    <footer class="post-meta">
         分类：<?php $this->category(','); ?> 标签：<?php $this->tags(', ', true, 'none'); ?>
         <time class="post-date" datetime="<?php $this->date('c'); ?>"><?php $this->date('F j, Y'); ?></time>
     </footer>

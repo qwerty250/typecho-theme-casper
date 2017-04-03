@@ -2,7 +2,7 @@
 
      <footer class="site-footer clearfix">
             <section class="copyright"><a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a> &copy; <?php echo date('Y'); ?></section>
-            <section class="poweredby">自豪地采用<a href="http://typecho.org">Typecho</a></section>
+            <section class="poweredby">Proudly using <a href="http://typecho.org">Typecho</a></section>
      </footer>
 
 
